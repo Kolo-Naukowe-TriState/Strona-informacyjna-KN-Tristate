@@ -1,14 +1,16 @@
 import React, { useState } from "react";
 
-const Navbar = () => {
+const Navbar = ({ logo }) => {
   const [showMenu, setShowMenu] = useState(false);
-
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
     <>
       <header className="navbar">
-        <div className="logo">🔧 KNUC</div>
+        <div className="logo">
+          <img src={logo} alt="Logo KNUC" className="logo-img" />
+          KNUC
+        </div>
         <nav>
           <ul className={`nav-links ${showMenu ? "show" : ""}`}>
             <li><a href="#o-nas" onClick={toggleMenu}>O nas</a></li>
@@ -26,5 +28,6 @@ const Navbar = () => {
     </>
   );
 };
+
 
 export default Navbar;

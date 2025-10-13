@@ -7,6 +7,9 @@ import Footer from "./components/Footer";
 import Puzzle from "./components/Puzzle";
 import "./style.css";
 
+import logo from "./images/logo.png";
+import logoCircle from "./images/logo-circle.png";
+
 function App() {
   const [solved, setSolved] = useState(false);
 
@@ -16,12 +19,24 @@ function App() {
         <Puzzle onSolved={() => setSolved(true)} />
       ) : (
         <>
-          <Navbar />
+          <Navbar logo={logo} />
           <Hero />
           <Section
             id="o-nas"
             title="O nas"
-            content="Jesteśmy grupą studentów zajmujących się układami cyfrowymi, FPGA i systemami embedded..."
+            content={
+              <>
+                <img
+                  src={logoCircle}
+                  alt="Logo Koła Naukowego Układów Cyfrowych"
+                  className="logo-big"
+                />
+                <p>
+                  Jesteśmy grupą studentów zajmujących się układami cyfrowymi,
+                  FPGA i systemami embedded...
+                </p>
+              </>
+            }
           />
           <Projects />
           <Section

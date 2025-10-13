@@ -28,6 +28,21 @@ h1, h2, h3 {
   top: 0;
 }
 
+.logo-img {
+  height: 40px;
+  width: auto;
+  margin-right: 8px;
+}
+
+.logo-big {
+  display: block;
+  margin: 1.5em auto;
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+}
+
+
 /* Hamburger - ukryty na dużych ekranach */
 .menu-toggle {
   display: none;
