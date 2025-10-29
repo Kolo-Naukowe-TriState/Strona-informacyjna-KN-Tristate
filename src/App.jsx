@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Section from "./components/Section";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Puzzle from "./components/Puzzle";
+import AnimatedSection from "./components/AnimatedSection";
 import "./style.css";
 
 import logo from "./images/logo.png";
@@ -18,10 +20,14 @@ function App() {
       {!solved ? (
         <Puzzle onSolved={() => setSolved(true)} />
       ) : (
-        <>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
           <Navbar logo={logo} />
           <Hero />
-          <Section
+          <AnimatedSection><Section
             id="o-nas"
             title="O nas"
             content={
@@ -37,15 +43,15 @@ function App() {
                 </p>
               </>
             }
-          />
-          <Projects />
-          <Section
+          /></AnimatedSection>
+          <Projects /> 
+          <AnimatedSection><Section
             id="kontakt"
             title="Kontakt"
             content="📧 kolo.tristate@interia.pl 🌐 Facebook / LinkedIn"
-          />
+          /></AnimatedSection>
           <Footer />
-        </>
+        </motion.div>
       )}
     </div>
   );
