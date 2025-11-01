@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 import Puzzle from "./components/Puzzle";
 import AnimatedSection from "./components/AnimatedSection";
 import "./style.css";
+import ScrollToTopButton from "./components/ScrollToTopButton";
+
 
 import logo from "./images/logo.png";
 import logoCircle from "./images/logo-circle.png";
@@ -55,6 +57,7 @@ function App() {
             content="📧 kolo.tristate@interia.pl 🌐 Facebook / LinkedIn"
           /></AnimatedSection>
           <Footer />
+          <ScrollToTopButton />
         </motion.div>
       )}
     </div>

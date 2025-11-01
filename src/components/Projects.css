@@ -1,0 +1,41 @@
+.projects-section {
+  background: #f8f9fa;
+  color: #222;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.projects-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+  color: #222;
+}
+
+.projects-section .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.projects-section .card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.projects-section .card:hover {
+  transform: translateY(-5px);
+}
+
+.projects-section h3 {
+  color: #3f51b5;
+  margin-bottom: 10px;
+}
+
+.projects-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
