@@ -1,41 +1,100 @@
 .projects-section {
-  background: #f8f9fa;
-  color: #222;
-  padding: 80px 20px;
+  padding: 60px 20px;
   text-align: center;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: white;
 }
 
 .projects-section h2 {
+  font-size: 2rem;
   margin-bottom: 40px;
-  font-size: 2.2rem;
-  color: #222;
 }
 
-.projects-section .grid {
+.projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 25px;
 }
 
-.projects-section .card {
-  background: white;
+.project-card {
+  background-color: #0f3460;
   border-radius: 15px;
-  padding: 25px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  text-align: left;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: white;
 }
 
-.projects-section .card:hover {
+.project-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
-.projects-section h3 {
-  color: #3f51b5;
-  margin-bottom: 10px;
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
-.projects-section p {
-  font-size: 1rem;
-  line-height: 1.5;
+/* --- Modal --- */
+/* --- Modal Overlay --- */
+.overlay {
+  position: fixed;
+  inset: 0;
+  display: none; /* <- domyślnie ukryty */
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999; /* nad stroną, ale tylko gdy aktywny */
+}
+
+.ReactModal__Overlay--after-open.overlay {
+  display: flex; /* <- pokazuje się dopiero, gdy modal otwarty */
+}
+
+.ReactModal__Overlay--before-close.overlay {
+  display: none;
+}
+
+/* --- Modal Window --- */
+.modal {
+  background-color: #16213e;
+  border-radius: 15px;
+  padding: 30px;
+  width: 90%;
+  max-width: 700px;
+  color: white;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 1000; /* nad overlayem */
+}
+
+
+.modal img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.github-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #00b4d8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.github-link:hover {
+  text-decoration: underline;
 }

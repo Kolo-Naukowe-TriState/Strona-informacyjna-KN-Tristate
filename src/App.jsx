@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Section from "./components/Section";
 import Gallery from "./components/Gallery";
+import Team from "./components/Team";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Puzzle from "./components/Puzzle";
@@ -50,6 +51,9 @@ function App() {
           <Projects /> 
           <AnimatedSection>
           <Gallery />
+          </AnimatedSection>
+          <AnimatedSection>
+          <Team />
           </AnimatedSection>
           <AnimatedSection><Section
             id="kontakt"
