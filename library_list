@@ -1,8 +1,0 @@
-Następujące komendy:
-npm install react
-npm install react-modal
-npm install framer-motion
-npm install lucide-react
-
-I wtedy, uruchomić (w cmd):
-npm start 

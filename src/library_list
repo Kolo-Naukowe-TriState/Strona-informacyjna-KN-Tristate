@@ -1,0 +1,13 @@
+Następujące komendy:
+npm install react
+npm install react-modal react-hook-form
+npm install framer-motion
+npm install lucide-react
+npm install react-countup
+npm install react-intersection-observer 
+
+lub wszystkie razem:
+npm install react react-modal framer-motion lucide-react react-countup react-intersection-observer react-hook-form
+
+I wtedy, uruchomić (w cmd):
+npm start 

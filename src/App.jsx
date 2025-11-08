@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Section from "./components/Section";
+import Stats from "./components/Stats";
 import Gallery from "./components/Gallery";
 import Team from "./components/Team";
 import Projects from "./components/Projects";
@@ -11,6 +12,7 @@ import Puzzle from "./components/Puzzle";
 import AnimatedSection from "./components/AnimatedSection";
 import "./style.css";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import JoinUs from "./components/JoinUs";
 
 
 import logo from "./images/logo.png";
@@ -48,12 +50,18 @@ function App() {
               </>
             }
           /></AnimatedSection>
+          <AnimatedSection>
+          <Stats />
+          </AnimatedSection>
           <Projects /> 
           <AnimatedSection>
           <Gallery />
           </AnimatedSection>
           <AnimatedSection>
           <Team />
+          </AnimatedSection>
+          <AnimatedSection>
+          <JoinUs />
           </AnimatedSection>
           <AnimatedSection><Section
             id="kontakt"

@@ -1,0 +1,112 @@
+.join-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #142850, #27496d, #0c7b93);
+  color: white;
+  text-align: center;
+}
+
+.join-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.join-section p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.join-btn {
+  background-color: #00a8cc;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.3s ease;
+}
+
+.join-btn:hover {
+  background-color: #007ea7;
+}
+
+.join-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.join-modal {
+  background: white;
+  color: #333;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 400px;
+  width: 90%;
+  text-align: left;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+.join-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.join-form input,
+.join-form textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.send-btn {
+  background-color: #0c7b93;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.send-btn:hover {
+  background-color: #007ea7;
+}
+
+.kahoot-container {
+  margin-top: 60px;
+}
+
+.kahoot-container iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  border: none;
+  border-radius: 15px;
+}
+
+.kahoot-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #00a8cc;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.kahoot-btn:hover {
+  background-color: #007ea7;
+}
+
