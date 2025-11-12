@@ -9,6 +9,8 @@ import Team from "./components/Team";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Puzzle from "./components/Puzzle";
+import FPGAPuzzle from "./components/FPGAPuzzle";
+import LogicSimulator from "./components/LogicSimulator";
 import AnimatedSection from "./components/AnimatedSection";
 import "./style.css";
 import ScrollToTopButton from "./components/ScrollToTopButton";
@@ -62,6 +64,14 @@ function App() {
           </AnimatedSection>
           <AnimatedSection>
           <JoinUs />
+          </AnimatedSection>
+          <Section
+            id="zagadki"
+            title="Zagadki FPGA"
+            content={<FPGAPuzzle />}
+          />
+          <AnimatedSection>
+          <LogicSimulator />
           </AnimatedSection>
           <AnimatedSection><Section
             id="kontakt"

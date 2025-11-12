@@ -1,0 +1,78 @@
+.fpga-puzzle {
+  background: linear-gradient(135deg, #121212, #1f1f1f);
+  border-radius: 16px;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+  max-width: 600px;
+  margin: 3rem auto;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.fpga-puzzle:hover {
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.3);
+}
+
+.question {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.option {
+  padding: 0.6rem 1rem;
+  background: #282828;
+  color: white;
+  border: 2px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.option:hover {
+  background: #333;
+  transform: scale(1.02);
+}
+
+.option.correct {
+  background: #007f5f;
+  border-color: #00b07f;
+}
+
+.option.wrong {
+  background: #8b0000;
+  border-color: #ff4040;
+}
+
+.feedback {
+  margin-top: 1rem;
+}
+
+.success {
+  color: #00ffcc;
+}
+
+.error {
+  color: #ff6666;
+}
+
+.next-btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background: #00bfa6;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.next-btn:hover {
+  background: #00d4b1;
+}
