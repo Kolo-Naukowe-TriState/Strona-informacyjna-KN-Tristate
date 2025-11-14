@@ -5,9 +5,10 @@ npm install framer-motion
 npm install lucide-react
 npm install react-countup
 npm install react-intersection-observer 
+itd., jak wpiszę tu jeszcze jeden to format pliku zamieni się na inny automatycznie
 
 lub wszystkie razem:
-npm install react react-modal framer-motion lucide-react react-countup react-intersection-observer react-hook-form
+npm install react react-modal framer-motion lucide-react react-countup react-intersection-observer react-hook-form canvas-confetti
 
-I wtedy, uruchomić (w cmd):
+I wtedy, uruchomić (w cmd, nie w PS):
 npm start 

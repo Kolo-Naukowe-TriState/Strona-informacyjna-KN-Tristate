@@ -46,8 +46,10 @@ function App() {
                   className="logo-big"
                 />
                 <p>
-                  Jesteśmy grupą studentów zajmujących się układami cyfrowymi,
-                  FPGA i systemami embedded...
+                  Jesteśmy grupą studentów pasjonujących się układami cyfrowymi, systemami FPGA oraz projektowaniem embedded.
+                  Pracujemy z nowoczesnymi narzędziami, takimi jak AMD Vivado, Vitis, PetaLinux, a także rozwijamy projekty oparte o architekturę RISC-V – od prostych peryferiów po kompletne systemy SoC.
+                  Regularnie bierzemy udział w wydarzeniach technologicznych, m.in. w FPGA Hackathonie w Krakowie, gdzie zdobywamy doświadczenie w pracy zespołowej, integracji sprzętu z oprogramowaniem i szybkim prototypowaniu.
+                  Tworzymy również tutoriale, prezentacje i mini-kursy, aby pomóc nowym członkom łatwo wejść w świat FPGA i logiki cyfrowej. Wszystko to odbywa się w przyjaznej, luźnej atmosferze – poznajesz ludzi o podobnych zainteresowaniach i zawsze możesz liczyć na wsparcie bardziej doświadczonych kolegów.
                 </p>
               </>
             }
