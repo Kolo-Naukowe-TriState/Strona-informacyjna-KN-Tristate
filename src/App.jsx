@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import { motion } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -15,6 +15,8 @@ import AnimatedSection from "./components/AnimatedSection";
 import "./style.css";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import JoinUs from "./components/JoinUs";
+import ProjectTimeline from "./components/ProjectTimeline";
+
 
 
 import logo from "./images/logo.png";
@@ -22,7 +24,7 @@ import logoCircle from "./images/logo-circle.png";
 
 function App() {
   const [solved, setSolved] = useState(false);
-
+  
   return (
     <div>
       {!solved ? (
@@ -54,6 +56,9 @@ function App() {
               </>
             }
           /></AnimatedSection>
+          <AnimatedSection>
+          <ProjectTimeline />
+          </AnimatedSection>
           <AnimatedSection>
           <Stats />
           </AnimatedSection>
