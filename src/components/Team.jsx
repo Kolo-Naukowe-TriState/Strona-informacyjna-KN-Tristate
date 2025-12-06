@@ -25,7 +25,7 @@ export default function Team() {
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
             <div className="team-image">
-              <img src={member.image} alt={member.name} />
+              <img src={process.env.PUBLIC_URL + member.image} alt={member.name} />
             </div>
             <h3>{member.name}</h3>
             <p className="role">{member.role}</p>
