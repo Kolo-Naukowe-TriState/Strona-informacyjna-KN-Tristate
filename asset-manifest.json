@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kolo-uklady/static/css/main.6a49756d.css",
-    "main.js": "/kolo-uklady/static/js/main.547f1ba8.js",
+    "main.js": "/kolo-uklady/static/js/main.0c52dc2f.js",
     "static/media/photo2.png": "/kolo-uklady/static/media/photo2.fa5c42ffe1a323aad771.png",
     "static/media/photo4.png": "/kolo-uklady/static/media/photo4.e1e27ea0b903fbf79627.png",
     "static/media/photo3.png": "/kolo-uklady/static/media/photo3.138ff3e65c881da8cecf.png",
@@ -14,10 +14,10 @@
     "static/media/photo6.png": "/kolo-uklady/static/media/photo6.dcc7818b2fee917dbbf8.png",
     "index.html": "/kolo-uklady/index.html",
     "main.6a49756d.css.map": "/kolo-uklady/static/css/main.6a49756d.css.map",
-    "main.547f1ba8.js.map": "/kolo-uklady/static/js/main.547f1ba8.js.map"
+    "main.0c52dc2f.js.map": "/kolo-uklady/static/js/main.0c52dc2f.js.map"
   },
   "entrypoints": [
     "static/css/main.6a49756d.css",
-    "static/js/main.547f1ba8.js"
+    "static/js/main.0c52dc2f.js"
   ]
 }
