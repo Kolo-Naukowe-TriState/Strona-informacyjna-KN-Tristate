@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Navbar.css";
 
 const Navbar = ({ logo }) => {
   const [showMenu, setShowMenu] = useState(false);

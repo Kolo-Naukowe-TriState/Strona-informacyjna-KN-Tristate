@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Puzzle.css"
 
 const Puzzle = ({ onSolved }) => {
   const [answer, setAnswer] = useState("");

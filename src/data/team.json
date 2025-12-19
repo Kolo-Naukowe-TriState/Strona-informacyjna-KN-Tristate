@@ -3,21 +3,21 @@
     "name": "Michał Sokala",
     "role": "Przewodniczący Koła",
     "description": "Student elektroniki i pasjonat układów FPGA. Odpowiada za prowadzenie projektów i organizację spotkań koła.",
-    "image": "/images/michal.jpg",
+    "imageKey": "michal",
     "linkedin": "https://www.linkedin.com/in/michal-sokala/"
   },
   {
     "name": "Tomasz Zębala",
     "role": "Koordynator projektów",
     "description": "Specjalizuje się w systemach embedded oraz tworzeniu oprogramowania w języku C/C++. Wspiera zespoły projektowe w testowaniu i integracji.",
-    "image": "/images/tomasz.jpg",
+    "imageKey": "tomasz",
     "linkedin": "https://www.linkedin.com/in/tomasz-zebala/"
   },
   {
     "name": "Jakub Bliźniuk",
     "role": "Członek techniczny",
     "description": "Zajmuje się syntezą logiki i implementacją układów cyfrowych na platformach FPGA. Współautor projektu zdalnego laboratorium.",
-    "image": "/images/jakub.jpg",
+    "imageKey": "jakub",
     "linkedin": "https://www.linkedin.com/in/jakub-blizniuk/"
   }
 ]

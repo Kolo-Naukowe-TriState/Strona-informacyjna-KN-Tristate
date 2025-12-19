@@ -1,0 +1,10 @@
+.section {
+  padding: 3em 2em;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}

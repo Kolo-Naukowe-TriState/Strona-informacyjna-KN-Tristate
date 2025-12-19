@@ -1,0 +1,26 @@
+[
+  {
+    "id": "petalinux",
+    "title": "Uruchomienie programu w PetaLinux na Cora Z7",
+    "short": "Stworzenie prostego programu w C na płytkę Cora Z7 i jego uruchomienie w środowisku PetaLinux.",
+    "long": "Projekt polegał na przygotowaniu środowiska PetaLinux dla płytki Cora Z7 z układem Zynq-7000. Zespół stworzył aplikację w języku C, skompilował ją w systemie wbudowanym oraz uruchomił na rzeczywistym sprzęcie. W projekcie wykorzystano narzędzia Vivado, Vitis oraz PetaLinux SDK.",
+    "imageKey": "petalinux",
+    "github": "https://github.com/example/cora-z7-petalinux"
+  },
+  {
+    "id": "remoteLab",
+    "title": "Zdalne Laboratorium Koła",
+    "short": "Projekt platformy umożliwiającej zdalny dostęp do układów FPGA poprzez przeglądarkę.",
+    "long": "Celem projektu jest stworzenie środowiska online do uruchamiania projektów FPGA zdalnie. Dzięki temu członkowie koła mogą testować swoje projekty bez fizycznego dostępu do płytki. Projekt obejmuje integrację mikrokontrolera, serwera backendowego i prostego interfejsu webowego.",
+    "imageKey": "remoteLab",
+    "github": "https://github.com/example/remote-lab"
+  },
+  {
+    "id": "hackathon",
+    "title": "FPGA Hackathon Kraków 2025",
+    "short": "Udział w hackathonie FPGA w Krakowie.",
+    "long": "Członkowie koła przygotowali się i wzięli udział w ogólnopolskim FPGA Hackathonie w Krakowie. W ramach wydarzenia zespół opracował koncepcję innowacyjnego projektu opartego na logice programowalnej, integrując moduły w Verilogu oraz system komunikacji z mikrokontrolerem. Udział w konkursie pozwolił zdobyć praktyczne doświadczenie i nawiązać kontakty z branżą.",
+    "imageKey": "hackathon",
+    "github": "https://github.com/example/fpga-hackathon"
+  }
+]
