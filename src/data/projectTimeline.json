@@ -1,19 +1,19 @@
 [
   {
+    "id": "petalinux",
+    "date": "2025 styczeń",
+    "title": "C na Cora Z7 + PetaLinux",
+    "description": "Stworzenie programu w języku C i uruchomienie go na PetaLinux w platformie Cora Z7.",
+    "imageKey": "petalinux",
+    "link": "#"
+  },
+  {
     "id": "hackathon",
     "date": "2025 maj",
     "title": "FPGA Hackathon (Kraków)",
     "description": "Udział w hackathonie FPGA, tworzenie kompletnego projektu w 24 godziny.",
     "imageKey": "hackathon",
     "link": "https://fpga-hackathon.pl"
-  },
-  {
-    "id": "petalinux",
-    "date": "2024 styczeń",
-    "title": "C na Cora Z7 + PetaLinux",
-    "description": "Stworzenie programu w języku C i uruchomienie go na PetaLinux w platformie Cora Z7.",
-    "imageKey": "petalinux",
-    "link": "#"
   },
   {
     "id": "remoteLab",

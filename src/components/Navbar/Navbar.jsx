@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = ({ logo }) => {
@@ -14,8 +15,10 @@ const Navbar = ({ logo }) => {
         </div>
         <nav>
           <ul className={`nav-links ${showMenu ? "show" : ""}`}>
-            <li><a href="#o-nas" onClick={toggleMenu}>O nas</a></li>
-            <li><a href="#projekty" onClick={toggleMenu}>Projekty</a></li>
+            <li><Link to="/">Strona główna</Link></li>
+            <li><Link to="/team">Zespół</Link></li>
+            <li><Link to="/projekty">Projekty</Link></li>
+            <li><Link to="/puzzle">Puzzle</Link></li>
             <li><a href="#kontakt" onClick={toggleMenu}>Kontakt</a></li>
           </ul>
         </nav>

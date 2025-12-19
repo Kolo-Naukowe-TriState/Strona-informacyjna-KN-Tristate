@@ -5,11 +5,15 @@ npm install framer-motion
 npm install lucide-react
 npm install react-countup
 npm install react-intersection-observer 
-itd., jak wpiszę tu jeszcze jeden to format pliku zamieni się na inny automatycznie
+npm install react-hook-form
+npm install canvas-confetti
+npm install gh-pages --save-dev
+npm install react-router-dom
 
 lub wszystkie razem:
-npm install react react-modal framer-motion lucide-react react-countup react-intersection-observer react-hook-form canvas-confetti 
+npm install react react-modal framer-motion lucide-react react-countup react-intersection-observer react-hook-form canvas-confetti react-router-dom
 npm install gh-pages --save-dev
+
 
 I wtedy, uruchomić (w cmd, nie w PS):
 npm start 

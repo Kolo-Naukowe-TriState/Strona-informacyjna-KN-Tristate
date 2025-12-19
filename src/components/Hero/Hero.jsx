@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import "./Hero.css";
+
+const MotionLink = motion(Link);
 
 export default function Hero() {
   const [gradient, setGradient] = useState({
@@ -49,15 +52,15 @@ export default function Hero() {
         >
           Łączymy pasję do elektroniki i nowoczesnych technologii.
         </motion.p>
-        <motion.a
-          href="#projekty"
+        <MotionLink
+          to="/projekty"
           className="btn"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
           Zobacz projekty
-        </motion.a>
+        </MotionLink>
       </div>
     </motion.section>
   );
