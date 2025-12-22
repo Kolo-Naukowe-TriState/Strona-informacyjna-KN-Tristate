@@ -4,8 +4,8 @@ import {
   Navbar,
   Section,
   Footer,
-  FPGAPuzzle,
   LogicSimulator,
+  FPGAPuzzle,
   AnimatedSection,
   ScrollToTopButton,
 } from "../components";
@@ -18,9 +18,9 @@ export default function PuzzlePage() {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
           <Navbar logo={logo} />
 
-          <AnimatedSection>
-            <LogicSimulator />
-          </AnimatedSection>
+            <AnimatedSection>
+              <LogicSimulator />
+            </AnimatedSection>
           
           <FPGAPuzzle />
           <Section

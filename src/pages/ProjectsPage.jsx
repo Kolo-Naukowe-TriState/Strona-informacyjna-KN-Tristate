@@ -5,8 +5,8 @@ import logo from "../images/logo.png";
 import {
   Navbar,
   Section,
-  Gallery,
   Projects,
+  Gallery,
   Footer,
   AnimatedSection,
   ScrollToTopButton,
@@ -15,11 +15,12 @@ import {
 
 export default function ProjectsPage() {
 
-  const animatedSections = [
-    { id: "timeline", component: <ProjectTimeline /> },
-    { id: "projects", component: <Projects /> },
-    { id: "gallery", component: <Gallery /> },
-  ];
+const animatedSections = [
+  { id: "timeline", component: <ProjectTimeline /> },
+  { id: "projects", component: <Projects /> },
+  { id: "gallery", component: <Gallery />},
+];
+
 
   return (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
