@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import "./Hero.css";
 
-const MotionLink = motion(Link);
+const MotionLink = motion.create(Link);
 
 export default function Hero() {
   const [gradient, setGradient] = useState({

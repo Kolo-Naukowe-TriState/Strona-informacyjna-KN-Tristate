@@ -5,7 +5,9 @@ import "./Projects.css";
 import projectsData from "../../data/projects.json";
 import projectImages from "../../images/projects";
 
-Modal.setAppElement("#root");
+if (process.env.NODE_ENV !== "test") {
+  Modal.setAppElement("#root");
+}
 
 export default function Projects() {
   const [modalIsOpen, setIsOpen] = useState(false);
