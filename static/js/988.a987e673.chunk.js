@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkkolo_uklady=self.webpackChunkkolo_uklady||[]).push([[988],{2608:(t,i,n)=>{n.r(i),n.d(i,{default:()=>l});var o=n(4977),a=n(6713),e=n(678),s=n(579);function l(){return(0,s.jsxs)(o.P.div,{initial:{opacity:0},animate:{opacity:1},children:[(0,s.jsx)(a.Fp,{logo:e}),(0,s.jsx)(a.$6,{children:(0,s.jsx)(a.lG,{})}),(0,s.jsx)(a.zs,{}),(0,s.jsx)(a.wn,{id:"kontakt",title:"Kontakt",content:"\ud83d\udce7 kolo.tristate@interia.pl \ud83c\udf10 Facebook / LinkedIn"}),(0,s.jsx)(a.wi,{}),(0,s.jsx)(a.o$,{})]})}}}]);
+//# sourceMappingURL=988.a987e673.chunk.js.map
