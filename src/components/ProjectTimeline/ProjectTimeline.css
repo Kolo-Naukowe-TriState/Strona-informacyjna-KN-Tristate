@@ -63,3 +63,11 @@
   font-size: 0.9rem;
   color: #4a90e2;
 }
+
+@media (max-width: 768px) {
+
+  .timeline-content {
+    font-size: 1rem;
+  }
+
+}

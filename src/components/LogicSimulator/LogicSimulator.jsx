@@ -74,7 +74,7 @@ export default function LogicSimulator() {
 
   return (
     <section id="logic-sim" className="logic-section">
-      <h2>Symulator układów cyfrowych — mini-demo</h2>
+      <h2>Symulator układów cyfrowych</h2>
       <p className="muted">Zbuduj prosty układ z 1 lub 2 bramek i obserwuj wyjścia na diodach LED.</p>
 
       <div className="controls">
