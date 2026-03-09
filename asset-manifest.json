@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kolo-uklady/static/css/main.fe0f85ac.css",
-    "main.js": "/kolo-uklady/static/js/main.06f6be81.js",
+    "main.js": "/kolo-uklady/static/js/main.19a05dce.js",
     "static/css/628.d67c9c2e.chunk.css": "/kolo-uklady/static/css/628.d67c9c2e.chunk.css",
     "static/js/628.7b92aa89.chunk.js": "/kolo-uklady/static/js/628.7b92aa89.chunk.js",
     "static/css/606.d67c9c2e.chunk.css": "/kolo-uklady/static/css/606.d67c9c2e.chunk.css",
@@ -11,7 +11,7 @@
     "static/css/988.d67c9c2e.chunk.css": "/kolo-uklady/static/css/988.d67c9c2e.chunk.css",
     "static/js/988.a987e673.chunk.js": "/kolo-uklady/static/js/988.a987e673.chunk.js",
     "static/js/127.45f453ec.chunk.js": "/kolo-uklady/static/js/127.45f453ec.chunk.js",
-    "static/js/133.9b555a12.chunk.js": "/kolo-uklady/static/js/133.9b555a12.chunk.js",
+    "static/js/133.f1d2c5b8.chunk.js": "/kolo-uklady/static/js/133.f1d2c5b8.chunk.js",
     "static/media/photo2.png": "/kolo-uklady/static/media/photo2.fa5c42ffe1a323aad771.png",
     "static/media/photo4.png": "/kolo-uklady/static/media/photo4.e1e27ea0b903fbf79627.png",
     "static/media/photo3.png": "/kolo-uklady/static/media/photo3.138ff3e65c881da8cecf.png",
@@ -25,7 +25,7 @@
     "static/media/photo6.png": "/kolo-uklady/static/media/photo6.dcc7818b2fee917dbbf8.png",
     "index.html": "/kolo-uklady/index.html",
     "main.fe0f85ac.css.map": "/kolo-uklady/static/css/main.fe0f85ac.css.map",
-    "main.06f6be81.js.map": "/kolo-uklady/static/js/main.06f6be81.js.map",
+    "main.19a05dce.js.map": "/kolo-uklady/static/js/main.19a05dce.js.map",
     "628.d67c9c2e.chunk.css.map": "/kolo-uklady/static/css/628.d67c9c2e.chunk.css.map",
     "628.7b92aa89.chunk.js.map": "/kolo-uklady/static/js/628.7b92aa89.chunk.js.map",
     "606.d67c9c2e.chunk.css.map": "/kolo-uklady/static/css/606.d67c9c2e.chunk.css.map",
@@ -35,10 +35,10 @@
     "988.d67c9c2e.chunk.css.map": "/kolo-uklady/static/css/988.d67c9c2e.chunk.css.map",
     "988.a987e673.chunk.js.map": "/kolo-uklady/static/js/988.a987e673.chunk.js.map",
     "127.45f453ec.chunk.js.map": "/kolo-uklady/static/js/127.45f453ec.chunk.js.map",
-    "133.9b555a12.chunk.js.map": "/kolo-uklady/static/js/133.9b555a12.chunk.js.map"
+    "133.f1d2c5b8.chunk.js.map": "/kolo-uklady/static/js/133.f1d2c5b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe0f85ac.css",
-    "static/js/main.06f6be81.js"
+    "static/js/main.19a05dce.js"
   ]
 }
