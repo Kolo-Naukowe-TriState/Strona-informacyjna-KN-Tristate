@@ -12,7 +12,7 @@ const PuzzlePage = lazy(() => import("./pages/PuzzlePage"));
 
 function App() {
   return (
-    <BrowserRouter basename="/kolo-uklady">
+    <BrowserRouter basename="/Strona-informacyjna-KN-Tristate">
       <ScrollToTop />
       <Suspense fallback={<Loader />}>
         <Routes>

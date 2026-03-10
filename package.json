@@ -1,8 +1,8 @@
 {
-  "name": "kolo-uklady",
+  "name": "strona-informacyjna",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://knuctristate.github.io/kolo-uklady",
+  "homepage": "https://Kolo-Naukowe-TriState.github.io/Strona-informacyjna-KN-Tristate",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
