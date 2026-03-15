@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Strona-informacyjna-KN-Tristate/static/css/main.fe0f85ac.css",
-    "main.js": "/Strona-informacyjna-KN-Tristate/static/js/main.3467cffb.js",
+    "main.js": "/Strona-informacyjna-KN-Tristate/static/js/main.f5a3fab1.js",
     "static/css/628.d67c9c2e.chunk.css": "/Strona-informacyjna-KN-Tristate/static/css/628.d67c9c2e.chunk.css",
     "static/js/628.3bed191b.chunk.js": "/Strona-informacyjna-KN-Tristate/static/js/628.3bed191b.chunk.js",
     "static/css/606.d67c9c2e.chunk.css": "/Strona-informacyjna-KN-Tristate/static/css/606.d67c9c2e.chunk.css",
@@ -25,7 +25,7 @@
     "static/media/photo6.png": "/Strona-informacyjna-KN-Tristate/static/media/photo6.dcc7818b2fee917dbbf8.png",
     "index.html": "/Strona-informacyjna-KN-Tristate/index.html",
     "main.fe0f85ac.css.map": "/Strona-informacyjna-KN-Tristate/static/css/main.fe0f85ac.css.map",
-    "main.3467cffb.js.map": "/Strona-informacyjna-KN-Tristate/static/js/main.3467cffb.js.map",
+    "main.f5a3fab1.js.map": "/Strona-informacyjna-KN-Tristate/static/js/main.f5a3fab1.js.map",
     "628.d67c9c2e.chunk.css.map": "/Strona-informacyjna-KN-Tristate/static/css/628.d67c9c2e.chunk.css.map",
     "628.3bed191b.chunk.js.map": "/Strona-informacyjna-KN-Tristate/static/js/628.3bed191b.chunk.js.map",
     "606.d67c9c2e.chunk.css.map": "/Strona-informacyjna-KN-Tristate/static/css/606.d67c9c2e.chunk.css.map",
@@ -39,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.fe0f85ac.css",
-    "static/js/main.3467cffb.js"
+    "static/js/main.f5a3fab1.js"
   ]
 }
